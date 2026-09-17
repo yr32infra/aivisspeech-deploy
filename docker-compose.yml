@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   aivisspeech:
-    image: ghcr.io/aivis-project/aivisspeech-engine:nvidia-latest@sha256:581c9d0881c0642c3b5a0a323ccb138b11ca92d04009d4d90fbf2877ebc29e70
+    image: ghcr.io/aivis-project/aivisspeech-engine:nvidia-latest@sha256:d999db322218128111bccf0fe8a45648bc9eca4d783282a5093e6f5d2938a50b
     hostname: aivisspeech
     container_name: aivisspeech__aivisspeech
     restart: unless-stopped
